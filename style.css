@@ -1,10 +1,13 @@
-body {
+body{
     background-color: grey;
 }
+
 
 .card {
     background-color: grey;
 }
+
+
 
 img {
     width: 50%;
@@ -49,4 +52,8 @@ img {
   .active {
     background-color: grey;
     color: white;
+  }
+
+  .sticky-footer {
+    flex-shrink: none;
   }
