@@ -1,4 +1,10 @@
+body {
+    background-color: grey;
+}
 
+.card {
+    background-color: grey;
+}
 
 img {
     width: 50%;
@@ -27,7 +33,7 @@ img {
   
 
   .topnav a.icon {
-    background: grey;
+    
     display: block;
     position: absolute;
     right: 0;
