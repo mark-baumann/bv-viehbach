@@ -1,4 +1,46 @@
+
+
 img {
     width: 50%;
     height: auto;
 }
+
+
+.topnav {
+    overflow: hidden;
+    background-color: grey;
+    position: relative;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+  
+
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+
+  .topnav a.icon {
+    background: grey;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+
+  .topnav a:hover {
+    background-color: grey;
+    color: gold;
+  }
+  
+  .active {
+    background-color: grey;
+    color: white;
+  }
